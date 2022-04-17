@@ -1,11 +1,25 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compare-products.css">
+    <script src="compare.js"></script>
     <title>Compare Products</title>
 </head>
 <body>
-  <h1>Oi</h1>
+  <section class="inputs">
+    <h1>Comparador de Preços</h1>
+    <div class="line">
+      <input type="text" name="size1" id="size1" placeholder="TAMANHO 1" onkeyup="handleInput(this)">
+      <input type="text" name="price1" id="price1" placeholder="PREÇO 1" onkeyup="handleInput(this)">
+    </div>
+    <div class="line">
+      <input type="text" name="size2" id="size2" placeholder="TAMANHO 2" onkeyup="handleInput(this)">
+      <input type="text" name="price2" id="price2" placeholder="PREÇO 2" onkeyup="handleInput(this)">
+    </div>
+    <button onclick="clean()">Limpar</button>
+  </section>
 </body>
 </html>
