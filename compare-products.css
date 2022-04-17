@@ -16,6 +16,7 @@ body {
 
 .inputs .line {
     margin: 10px;
+    text-align: center;
 }
 
 .inputs .line input{
@@ -43,4 +44,5 @@ body {
     font-size: 30px;
     color: #f0f0f0;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
