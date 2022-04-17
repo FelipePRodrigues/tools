@@ -76,11 +76,11 @@ function compare() {
         console.log("Calculando...")
         if (price1) {
             let samePrice = ((size2 * price1) / size1).toFixed(2).toString()
-            document.getElementById(PRICE_2).placeholder = samePrice
+            document.getElementById(PRICE_2).value = samePrice
         }
         else if (price2) {
             let samePrice = ((size1 * price2) / size2).toFixed(2).toString()
-            document.getElementById(PRICE_1).placeholder = samePrice
+            document.getElementById(PRICE_1).value = samePrice
         }
     }
 }
